@@ -1,0 +1,11 @@
+package ca.umanitoba.cs.ekehcb.service;
+
+public class StackNode<T> {
+    T data;
+    StackNode<T> next;
+
+    public StackNode(T data) {
+        this.data = data;
+        this.next = null;
+    }
+}
